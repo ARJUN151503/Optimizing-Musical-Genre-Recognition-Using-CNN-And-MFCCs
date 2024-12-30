@@ -31,6 +31,7 @@ Flask is used and predict succesfully where it contains:
   - model_evaluation_metrics.html
   - Flowchat.html
 - app.py (contains Flask code)
+- .h5 or .keras file ( don't forgot)
 
 ## Installation
 To run this project locally, follow these steps:
