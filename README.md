@@ -1,2 +1,73 @@
-# Optimizing-Musical-Genre-Recognition-Using-CNN-And-MFCCs
-This study investigates the application of Convolutional Neural  Networks (CNN). for the bracket of music stripes using the  GTZAN dataset, which includes 1000 tracks divided into 10  stripes. Each audio train is converted into Mel- frequence  Cepstral Portions (MFCCs), an extensively- used point in audio  analysis.
+# Music Genre Classification Using Deep Learning
+
+## Project Overview
+This project involves developing a deep learning model to classify music audio into 10 distinct genres. The model leverages Convolutional Neural Networks (CNNs) to process audio features extracted from music tracks, achieving high accuracy on both training and validation datasets.
+
+## Features
+- **Music Genre Classification**: Classifies audio files into 10 genres such as Jazz, Blues, Classical, etc.
+- **Deep Learning Model**: Built with TensorFlow and Keras, using CNNs optimized for audio data.
+- **Data Processing**: Utilizes Librosa for audio feature extraction, including Mel-frequency cepstral coefficients (MFCCs).
+- **High Accuracy**: Achieved over 99% accuracy on training data and approximately 90% on validation data.
+
+## Project Structure
+- **Train_Music_Genre_Classifier.ipynb**: Jupyter notebook containing the training process, including data preprocessing, model architecture, and training loop.
+- **Test_Music_Genre.ipynb**: Jupyter notebook for testing the trained model on unseen data and evaluating its performance.
+- **training_hist.json**: JSON file containing the training history, including loss and accuracy metrics for both training and validation datasets.
+- **Audio Files**: Example audio files used for training and testing, e.g., `blues.00000.wav`, `jazz.00054.wav`.
+
+## Deployment/Frontend
+
+This repository contains the frontend application for the Music Genre Classification system. The frontend is designed to provide a user-friendly interface that allows users to upload audio files, classify music genres, and view the results in real-time.
+
+- File Upload: Enables users to upload audio files in MP3 or WAV format.
+- Real-Time Classification: Displays the predicted music genre instantly after analysis.
+
+Flask is used and predict succesfully where it contains:
+- HTML FILES:
+  - index.html
+  - about.html
+  - predict.html
+  - model_evaluation_metrics.html
+  - Flowchat.html
+- app.py (contains Flask code)
+
+## Installation
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/hridxyz/Music_Genre_Classification_using_CNN.git
+    cd Music_Genre_Classification_Using_CNN
+    ```
+
+2. **Install required dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the training notebook**:
+    Open `Train_Music_Genre_Classifier.ipynb` in Jupyter Notebook and execute the cells to train the model.
+
+4. **Test the model**:
+    Open `Test_Music_Genre.ipynb` in Jupyter Notebook to test the trained model and see the results.
+
+## Dependencies
+- Python 3.10
+- TensorFlow
+- Keras
+- Librosa
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+## Usage
+To classify a new music track, add your audio file to the appropriate location and run the test notebook. The model will output the predicted genre.
+
+## Results
+The model was trained on a large dataset of labeled music tracks and tested with unseen data. The final model achieved:
+- **Training Accuracy**: 99.7%
+- **Validation Accuracy**: 90.3%
+
+## Contributing
+Contributions are welcome! If you'd like to improve the project, feel free to fork the repository and submit a pull request.
