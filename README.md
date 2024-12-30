@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone [https://github.com/hridxyz/Music_Genre_Classification_using_CNN](https://github.com/ARJUN151503/Optimizing-Musical-Genre-Recognition-Using-CNN-And-MFCCs).git
+    git clone https://github.com/ARJUN151503/Optimizing-Musical-Genre-Recognition-Using-CNN-And-MFCCs.git
     cd Optimizing-Musical-Genre-Recognition-Using-CNN-And-MFCCs
     ```
 
