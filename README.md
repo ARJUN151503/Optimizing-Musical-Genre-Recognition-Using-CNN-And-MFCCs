@@ -18,6 +18,11 @@ This project involves developing a deep learning model to classify music audio i
 
 ## Deployment/Frontend
 
+### images
+
+![image](https://github.com/user-attachments/assets/ff2c7d58-e6b3-409a-9176-74c5f14f6b46)
+
+
 This repository contains the frontend application for the Music Genre Classification system. The frontend is designed to provide a user-friendly interface that allows users to upload audio files, classify music genres, and view the results in real-time.
 
 - File Upload: Enables users to upload audio files in MP3 or WAV format.
