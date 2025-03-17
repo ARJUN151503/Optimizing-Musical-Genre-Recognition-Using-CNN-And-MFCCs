@@ -1,4 +1,4 @@
-# Music Genre Classification Using Deep Learning
+# Optimizing Musical Genre Recognition Using CNN And MFCCs: A Deep Learning
 
 ## Project Overview
 This project involves developing a deep learning model to classify music audio into 10 distinct genres. The model leverages Convolutional Neural Networks (CNNs) to process audio features extracted from music tracks, achieving high accuracy on both training and validation datasets.
